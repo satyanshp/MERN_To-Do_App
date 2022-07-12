@@ -1,0 +1,160 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  max-height: 100vh;
+  /* padding-top: 20px; */
+  /* padding-bottom: 20px; */
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.item{
+  background-color: #6b30d000 !important;
+  gap: 11px;
+  padding: 0 !important;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.item .buttonContainer{
+  display: flex;
+  flex-direction: column !important;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+}
+.item div{
+  color: white;
+  font-size: 10px !important;
+  flex-direction: row !important;
+  display: flex;
+}
+.item .deletebtncont{
+  max-width: fit-content !important;
+}
+.item .itemCont{
+  width: 90%;
+}
+.item .textCont{
+  width: 80%;
+  display: flex;
+  flex-direction: column !important;
+}
+.item button{
+  min-height: 20px;
+  min-width: 20px;
+  /* size: 10px !important; */
+  background-color: red;
+  border: none;
+  max-width: fit-content !important;
+  color: white;
+  border-radius: 5px;
+  font-size: 10px;
+  cursor: pointer;
+}
+/* .item div{
+  margin-bottom: 20px;
+} */
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+.App-link {
+  color: #61dafb;
+}
+.nav{
+  padding-top: 20px;
+}
+.nav h2{
+  padding: 0;
+  padding-top: 20px;
+  margin: 0;
+  font-size: 2.5rem;
+  /* background-color: #282c34; */
+  background: linear-gradient(to right, #71f3f3 0%, #30CFD0 30%, #482574 100%);
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 0.5rem 0px;
+}
+.task{
+  display: flex;
+  margin: 1rem 0rem;
+  /* flex-direction: column; */
+  justify-content: space-evenly;
+  /* background-color: #30CFD0; */
+  min-height: 68vh;
+  padding: 0.5rem;
+  /* align-items: center; */
+}
+.task .iii{
+  min-width: 24vw;
+  max-height: 70vh;
+}
+.task div{
+  margin: 0;
+  background-color: #778ae1;
+  padding: 0.8rem;
+  
+  border-radius: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  color: white;
+  font-size: large;
+  font-weight: 600;
+  /* text-decoration: underline; */
+}
+.box{
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  min-height: 75%;
+  /* width: 80%; */
+  background: #6b30d068 !important;
+  margin-bottom: 1rem;
+}
+.box::-webkit-scrollbar{
+  display: none;
+}
+
+.head{
+  display: flex !important;
+  flex-direction: row !important;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+ 
+}
+.head div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.task div .add{
+  min-width: 1px !important;
+  /* padding-top: 8px; */
+  /* padding-bottom: 13px; */
+  padding: 8px 10px 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 15px;
+  width: 15px !important;
+  font-size: x-large;
+  text-decoration: none !important;
+  border: solid white 1px;
+  text-align: center;
+  cursor: pointer;
+}
